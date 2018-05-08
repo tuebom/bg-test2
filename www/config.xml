@@ -36,6 +36,7 @@
   <preference name="android-build-tool" value="gradle" />
   
   <plugin name="cordova-plugin-dialogs" spec="~1.3.0" />
+  <plugin name="cordova-plugin-file" source="npm" />
   <plugin name="cordova-plugin-sqlite-2" spec="~1.0.4" />
   
   <!--<icon src="img/icon/icon.png"/>-->
