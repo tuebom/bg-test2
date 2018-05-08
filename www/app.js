@@ -3,7 +3,7 @@ var database = null;
 var nextUser = 101;
 
 function initDatabase() {
-  database = window.sqlitePlugin.openDatabase({name: 'sample.db', location: 'default', createFromLocation: 1});
+  database = window.sqlitePlugin.openDatabase({name: 'sample.db'});
 }
 
 function echoTest() {
